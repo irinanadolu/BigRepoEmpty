@@ -1,0 +1,15 @@
+# For files without extensions, let Git autodetect binary
+* text=auto
+
+# By default, all files with extensions are converted to LF only, so Windows does not break them
+*.* text eol=lf
+
+# Override the following filetypes to be binary
+*.[gG][iI][fF] binary
+*.[jJ][pP]*[gG] binary
+*.[pP][nN][gG] binary
+*.[eE][xX][eE] binary
+*.[pP][dD][fF] binary
+*.[sS][nN][aA][gG]* binary
+*.[vV][sS][dD]* binary
+
